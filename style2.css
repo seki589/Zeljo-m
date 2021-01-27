@@ -261,12 +261,12 @@ ul li{
       color:lightgray;
 }
 .info p{
-    font-size: 10px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    transition: .5s ease;
+  font-size: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: .5s ease;
 }
-  
+
 #cards2 .btn,
 #cards .btn{
     display: inline-block;

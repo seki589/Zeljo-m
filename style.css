@@ -480,8 +480,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
 
 .story{
