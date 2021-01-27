@@ -402,7 +402,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 }
 /* contact */
 #cards .one{
-  height: 70vh;
+  /* height: 70vh; */
   width: 85%;
   background-size: cover;
   background-position: center;
@@ -486,11 +486,11 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 
 .story{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   margin: 40px 0px;
   padding: 10px 10px;
-  background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+  background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,.1));
   transition: .5s ease;
 }
 .story:hover{
@@ -501,9 +501,11 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
   width: 450px;
   height: 300px;
   border-radius: 5px;
+  flex: 1;
 }
 .story .info{
   padding: 0px 15px;
+  flex: 2;
 }
 .story  h2{
   color: orange;
@@ -697,6 +699,13 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
   .wrapper .card{
     max-width: 600px;
     flex: 100%;
+  }
+  #aboutUs .one,
+  #cards .one{
+    height: 50vh;
+  }
+  .story{
+    flex-direction: column;
   }
   #footer2{
     display: none;
